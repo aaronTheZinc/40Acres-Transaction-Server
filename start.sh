@@ -1,0 +1,1 @@
+geth init ./genesis.json --datadir ./network_data

@@ -1,0 +1,34 @@
+{
+  "name": "hardhat-project",
+  "scripts": {
+    "start": "npx hardhat run src/app.ts --network sepolia",
+    "dev": "nodemon --watch src --ext ts --exec \"ts-node src/app.ts\""
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@nomiclabs/hardhat-solhint": "^4.0.0",
+    "@openzeppelin/test-helpers": "^0.5.16",
+    "@types/node": "^22.0.0",
+    "@typescript-eslint/eslint-plugin": "^8.0.0",
+    "@typescript-eslint/parser": "^8.0.0",
+    "dotenv": "^16.4.7",
+    "eslint": "^8.53.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "ethers": "^6.8.1",
+    "hardhat": "^2.19.0",
+    "hardhat-deploy": "^0.14.0",
+    "prettier": "^3.0.3",
+    "prettier-plugin-solidity": "^1.2.0",
+    "solhint": "^5.0.0",
+    "solidity-coverage": "^0.8.5",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "5.1.0",
+    "axios": "^1.7.9",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "zod-express-middleware": "^1.4.0"
+  }
+}
